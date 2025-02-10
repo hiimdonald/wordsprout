@@ -83,11 +83,13 @@ footer_text_color: "#666666"
 ### Jekyll Configuration. No need to touch this. ###
 ####################################################
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
+# Jekyll Configuration
+baseurl                                   : "/"
+url                                       : "https://wordsprout.co"
 
-# Exclude these files from your production _site
+sass:
+  style: :compressed
+
 exclude:
   - LICENSE
   - README.md
@@ -97,6 +99,3 @@ collections:
   pages:
     output: true
     permalink: /:path/
-
-# Markdown rendering
-markdown: kramdown
