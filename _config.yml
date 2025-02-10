@@ -18,8 +18,8 @@ app_description: Write a short tagline for your app.
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name: Thirdly
-your_link: https://thirdly.co
+your_name: Don
+your_link: https://wordsprout.co
 your_city: Arizona
 email_address: hello@thirdly.co
 facebook_username:
@@ -36,7 +36,7 @@ features:
     fontawesome_icon_name: #magic
 
   - title: Flash Cards
-    description: Pactice your spelling words with flash cards. Each word is pronounced and used in a sentence to help you learn to spell the word. 
+    description: Pactice your spelling words with flash cards. Each word is pronounced and used in a sentence to help you learn to spell the word.
     fontawesome_icon_name: #mobile
 
   - title: Word Search
@@ -47,6 +47,9 @@ features:
     description: Choose between Fry and Dolch sight words. Over 1000 words to practice and learn.
     fontawesome_icon_name: #sync
 
+  - title: # New Feature Title
+    description: # New Feature Description
+    fontawesome_icon_name: # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 # Theme Settings
 topbar_color: "#000000"
@@ -78,13 +81,9 @@ social_icons_background_color: "#e6e6e6"
 
 footer_text_color: "#666666"
 
-####################################################
-### Jekyll Configuration. No need to touch this. ###
-####################################################
-
 # Jekyll Configuration
-baseurl                                   : "/"
-url                                       : "https://wordsprout.co"
+baseurl: "/"
+url: "https://wordsprout.co"
 
 sass:
   style: :compressed
@@ -98,3 +97,5 @@ collections:
   pages:
     output: true
     permalink: /:path/
+
+markdown: kramdown
