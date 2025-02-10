@@ -32,7 +32,7 @@ mastodon_link:
 # Feature List                            Edit, add or remove features to be presented.
 features:
   - title: Spelling Test
-    description: Each of your spelling words is pronounced just like a standard spelling test. Enter each word from your spelling list one by one until you’ve spelled all the words.
+    description: Each of your spelling words is pronounced just like a standard spelling test. Enter each word from your spelling list one by one until you've spelled all the words.
     fontawesome_icon_name: #magic
 
   - title: Flash Cards
@@ -46,7 +46,6 @@ features:
   - title: Sight Words
     description: Choose between Fry and Dolch sight words. Over 1000 words to practice and learn.
     fontawesome_icon_name: #sync
-
 
 
 # Theme Settings
