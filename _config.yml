@@ -88,3 +88,6 @@ sass:
   style: :compressed
 
 exclude:
+
+include:
+  - _pages
